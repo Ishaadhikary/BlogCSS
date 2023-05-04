@@ -1,0 +1,234 @@
+body{
+    font-size: 18px;
+    text-align: center;
+    background: rgb(199,134,11,0.28);
+    margin: 20px auto;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 25px;
+}
+
+h1{
+    font-size: 48px;
+}
+
+#inclusivityHeading{
+    font-size: 48px;
+    font-weight: lighter;
+    margin-top: 2px;
+}
+
+h2{
+    font-size: 32px;
+}
+
+header hr, .subscribeForm hr{
+    width: 23%;
+    margin-top: -8px;
+    margin-bottom: -2px;
+    border-color: #b8860b;
+}
+
+aside hr{
+    margin-top:-20px;
+    margin-bottom: -10px;
+    border-color: #b8860b;
+}
+
+.heading{
+    color: rgb(209, 0, 0);
+}
+
+.headingImg{
+    margin: auto;
+    width:80%;
+    height: 10%;
+    background:#f4e3c3aa;
+    border-radius: 3px;
+    padding: 10px auto 40px;
+}
+
+.container{
+    width: 80%;
+    margin:inherit;
+    padding: 30px 20px 30px 20px;
+    border-radius: 3px;
+    background-color: antiquewhite;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
+}
+
+.box{
+    margin: inherit;
+    padding: 20px 120px 10px;
+    text-align: left;
+}
+
+section{
+    width: 60%;
+}
+#fletter{
+    font-size: 48px;
+    float: left;
+    line-height: 40px;
+}
+
+
+.left{
+    float: left;
+    width: 65%;
+}
+
+.right .sideContent {
+    float: right;
+    width: 30%;
+    background:antiquewhite;
+    margin-top: 24px;
+    padding: 10px 15px 20px;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
+
+}
+
+.right li{
+    margin-left: -16px;
+}
+
+li::marker{
+    content: '⁘ ';
+    color: #b8860b;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.topic a{
+    color: darkgoldenrod;
+    line-height: 35px;
+}
+
+.sideimgCard{
+    background: #fff9eaeb;
+    margin-top: 30px;
+    padding: 20px 20px 4px 20px;
+}
+
+.sideimgCard img{
+    width: 100%; 
+}
+
+.sideimgCard p{
+    font-weight: 200px;
+}
+
+
+.clear{
+    clear:both;
+}
+
+.imgBenifit{
+    width: 5%;
+    float: left;
+    padding-right: 5px;
+    padding-left: 2px;
+    padding-bottom: 2px;
+}
+
+.imgStudent, .imgWorkspace, .imgSociety{
+    width:8%;
+    padding: 5px 5px 2px 0px;
+    float:left;
+}
+.tabular{
+    margin-top: -400px;
+    text-align: center;
+}
+
+table{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-collapse: collapse;
+}
+
+th{
+    background-color: #fffde14f;
+}
+
+th ,td{
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.conclusion{
+    display: inline-block;
+}
+  
+.subscribeForm{
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.056);
+    padding: 20px;
+}
+
+.subscribeForm h2{
+    text-align: center;
+}
+
+
+.formGroup {
+    padding-bottom: 0;
+  }
+  
+  
+input[type="text"], input[type="tel"], input[type="email"] {
+    width: 50%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    line-height: 20px;
+  }
+  
+button[type="submit"] {
+    width: 30%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+button[type="submit"]:hover {
+    background-color: #0062cc;
+  }
+
+footer{
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    font-weight: 50px;
+}
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+/* 
+
+TO DO
+    [-] Apply CSS to the previous HTML assignment. (Use a float for layout)
+    [-] Use External CSS. Avoid using inline CSS. And use any font style from google font.
+    [-] H1 font size should be 48px
+    [-] H2 font size should be 32px
+    [-] Body font size should be 18px 
+
+*/
