@@ -11,15 +11,22 @@ h1{
     font-size: 48px;
 }
 
-#inclusivityHeading{
-    font-size: 48px;
-    font-weight: lighter;
-    margin-top: 2px;
-}
-
 h2{
     font-size: 32px;
 }
+
+
+hr{
+    border-color: #b8860b;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* Header Css */
 
 header hr, .subscribeForm hr{
     width: 23%;
@@ -28,10 +35,10 @@ header hr, .subscribeForm hr{
     border-color: #b8860b;
 }
 
-aside hr{
-    margin-top:-20px;
-    margin-bottom: -10px;
-    border-color: #b8860b;
+#inclusivityHeading{
+    font-size: 48px;
+    font-weight: lighter;
+    margin-top: 2px;
 }
 
 .heading{
@@ -46,6 +53,7 @@ aside hr{
     border-radius: 3px;
     padding: 10px auto 40px;
 }
+/* End of Header Css */
 
 .container{
     width: 80%;
@@ -62,6 +70,7 @@ aside hr{
     text-align: left;
 }
 
+/* Section Css */
 section{
     width: 60%;
 }
@@ -75,6 +84,14 @@ section{
 .left{
     float: left;
     width: 65%;
+}
+/* End of Section Css */
+
+/* Aside Css */
+
+aside hr{
+    margin-top:-20px;
+    margin-bottom: -10px;
 }
 
 .right .sideContent {
@@ -97,10 +114,6 @@ li::marker{
 
 }
 
-a{
-    text-decoration: none;
-    color: black;
-}
 
 .topic a{
     color: darkgoldenrod;
@@ -120,11 +133,10 @@ a{
 .sideimgCard p{
     font-weight: 200px;
 }
-
-
 .clear{
     clear:both;
 }
+/* End of Aside Css */
 
 .imgBenifit{
     width: 5%;
@@ -139,6 +151,8 @@ a{
     padding: 5px 5px 2px 0px;
     float:left;
 }
+
+/* Table Css */
 .tabular{
     margin-top: -400px;
     text-align: center;
@@ -150,18 +164,20 @@ table{
 }
 
 th{
-    background-color: #fffde14f;
+    background-color: #fffde14f;;
 }
 
 th ,td{
     padding: 12px;
     text-align: left;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid rgba(199, 182, 138, 0.39);
 }
+/* End of table css */
 
 .conclusion{
     display: inline-block;
 }
+/* Form Css */
   
 .subscribeForm{
     text-align: center;
@@ -187,13 +203,14 @@ input[type="text"], input[type="tel"], input[type="email"] {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
     margin: 20px;
     line-height: 20px;
+    background: rgb(253, 244, 232) ;
   }
   
 button[type="submit"] {
     width: 30%;
     padding: 10px;
     background-color: #007bff;
-    color: #fff;
+    color: antiquewhite;
     border: none;
     border-radius: 5px;
     font-weight: bold;
@@ -203,12 +220,15 @@ button[type="submit"]:hover {
     background-color: #0062cc;
   }
 
-footer{
+/* End of form style */
+
+  footer{
     margin: 0;
     padding-top: 20px;
     padding-bottom: 5px;
     font-weight: 50px;
 }
+
 
 
   
